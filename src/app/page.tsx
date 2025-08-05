@@ -1,7 +1,10 @@
-import Header from "@/Components/Header";
-
+import HomePage from "@/Components/Home";
+import Custom from "@/Components/Custom";
 export default function Home() {
   return (
-    <Header/>
+    <>
+    <HomePage/>
+    <Custom/>
+    </>
   );
 }
