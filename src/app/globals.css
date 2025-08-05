@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff;
+  --foreground: #fff;
 }
 
 @theme inline {
@@ -12,10 +12,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: none) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #fff;
+    --foreground: #fff;
   }
 }
 
@@ -24,3 +24,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* 5A6072 */
