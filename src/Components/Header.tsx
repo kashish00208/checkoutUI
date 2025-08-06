@@ -18,7 +18,7 @@ const navItems: item[] = [
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-md border-b border-gray-200 z-50">
+    <header className="fixed top-0 left-0 w-full bg-white border-b border-gray-200 z-50">
       <div className="mx-auto max-w-7xl px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="h-8 w-[100px] flex items-center justify-center">
