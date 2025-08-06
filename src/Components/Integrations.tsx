@@ -15,6 +15,7 @@ const data: dataType[] = [
   { image: "/integrate/comp7.webp" },
 ];
 
+
 const Integrations = () => {
   return (
     <div className="w-full py-8 flex justify-center bg-white">
