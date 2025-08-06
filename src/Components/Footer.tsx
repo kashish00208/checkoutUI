@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   const sections = [
@@ -160,12 +160,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center border-t border-gray-200 pt-6 text-xs text-gray-500">
           <p>© 2025 Checkout Page. All rights reserved.</p>
           <div className="mt-2 md:mt-0 space-x-4">
-            <a href="/terms-of-service" className="hover:underline">
+            <Link href="/terms-of-service" className="hover:underline">
               Terms of Service
-            </a>
-            <a href="/privacy-policy" className="hover:underline">
+            </Link>
+            <Link href="/privacy-policy" className="hover:underline">
               Privacy Policy
-            </a>
+            </Link>
           </div>
         </div>
       </div>

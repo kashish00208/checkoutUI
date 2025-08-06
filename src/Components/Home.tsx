@@ -62,7 +62,7 @@ const HomePage = () => {
             </h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               There are lots of ways to take payments online, and chances are,
-              you've tried a few. But most are hard to set up, slow to load, and
+              you`&apos;`ve tried a few. But most are hard to set up, slow to load, and
               not made for you. They hurt your sales, force branding you don’t
               want, and charge high per-transaction fees.
             </p>
@@ -70,23 +70,22 @@ const HomePage = () => {
 
           <div className="bg-gray-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition duration-300">
             <h3 className="text-xl font-semibold text-[#509ee3] mb-4">
-              There's a better way
+              There`&apos;`s a better way
             </h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              That’s why we built Checkout Page: a no-code way to build branded
+              That`&quot;`s why we built Checkout Page: a no-code way to build branded
               checkouts. Lightning-fast, fully customizable, and integrated with
               your tools — all without writing code. We charge a flat,
               transparent fee. No per-transaction costs.
             </p>
           </div>
-
           <div className="bg-gray-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition duration-300">
             <h3 className="text-xl font-semibold text-[#509ee3] mb-4">
               Trusted by business owners like you
             </h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               We power thousands of checkouts daily for founders, teams, and
-              businesses worldwide. Built and verified by Stripe. Plus, we’re
+              businesses worldwide. Built and verified by Stripe. Plus, we`&quot;`re
               real humans, ready to help when you need us.
             </p>
           </div>
