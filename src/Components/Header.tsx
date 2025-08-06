@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-white border-b border-gray-200 z-50">
-      <div className="mx-auto max-w-7xl px-4 flex justify-between items-center">
+      <div className="mx-auto max-w-5xl px-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center h-14 sm:h-16 md:h-20">
           <Image
