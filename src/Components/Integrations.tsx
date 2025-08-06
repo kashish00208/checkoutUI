@@ -12,9 +12,7 @@ const data: dataType[] = [
   { image: "/spon/comp4.webp" },
   { image: "/spon/comp5.webp" },
   { image: "/spon/comp6.webp" },
-  { image: "/spon/comp7.png" },
-  { image: "/spon/comp8.webp" },
-  { image: "/spon/comp9.webp" },
+  { image: "/spon/comp7.webp" },
 ];
 
 const Companies = () => {
