@@ -73,7 +73,7 @@ const HomePage = () => {
           {/* Card 2 */}
           <div className="bg-gray-50 rounded-2xl p-6 shadow-md hover:shadow-lg transition duration-300">
             <h3 className="text-lg sm:text-xl font-semibold text-[#509ee3] mb-4">
-              There's a better way
+              There`&apos;`s a better way
             </h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               That’s why we built Checkout Page: a no-code way to build branded
