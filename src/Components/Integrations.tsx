@@ -6,17 +6,18 @@ type dataType = {
 };
 
 const data: dataType[] = [
-  { image: "/integrate/comp1.webp" },
-  { image: "/integrate/comp2.webp" },
-  { image: "/integrate/comp3.webp" },
-  { image: "/integrate/comp4.webp" },
-  { image: "/integrate/comp5.webp" },
-  { image: "/integrate/comp6.webp" },
-  { image: "/integrate/comp7.webp" },
+  { image: "/spon/comp1.webp" },
+  { image: "/spon/comp2.webp" },
+  { image: "/spon/comp3.webp" },
+  { image: "/spon/comp4.webp" },
+  { image: "/spon/comp5.webp" },
+  { image: "/spon/comp6.webp" },
+  { image: "/spon/comp7.png" },
+  { image: "/spon/comp8.webp" },
+  { image: "/spon/comp9.webp" },
 ];
 
-
-const Integrations = () => {
+const Companies = () => {
   return (
     <div className="w-full py-8 flex justify-center bg-white">
       {/* Centered scroll container */}
@@ -41,4 +42,4 @@ const Integrations = () => {
   );
 };
 
-export default Integrations;
+export default Companies;
