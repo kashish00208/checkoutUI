@@ -117,12 +117,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-10">
           {/* Company Overview */}
           <div className="lg:col-span-4">
-            <a
+            <Link
               href="/"
               className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 text-xl font-semibold"
             >
               <span>Checkout Page</span>
-            </a>
+            </Link>
             <p className="mt-4 text-sm text-gray-600">
               Start selling in minutes with our no-code checkout page builder.
             </p>

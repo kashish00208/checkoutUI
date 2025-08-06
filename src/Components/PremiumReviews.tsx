@@ -79,7 +79,7 @@ const Testimonials = () => {
                     </svg>
                   ))}
                 </div>
-                <p>"{testimonial.quote}"</p>
+                <p>`&quot;`{testimonial.quote}`&quot;`</p>
               </blockquote>
               <figcaption className="mt-6 text-center">
                 <Image
